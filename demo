@@ -1,0 +1,16 @@
+//defining a method in scala
+def add(var1:Int, var2:Int) = {
+  return var1 + var2
+}
+
+//another option when defining a method
+def add(var1:Int, var2:Int) = { //here, the result type is inferred
+  var1 + var2 //the "return" keyword is optional
+}
+
+//yet another option for defining methods
+def add(var1:Int, var2:Int) = var1 + var2 //curly braces are optional on single line blocks
+
+//assigning multiple variables efficiently
+var (x, y, z, c, one, two) = (1, 2, 3, true, false, "hello")
+println(x, y, z, c, one, two)
